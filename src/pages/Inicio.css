@@ -1,0 +1,235 @@
+.inicio-page {
+  overflow-x: hidden;
+}
+
+/* Hero Banner y Carousel */
+.hero-carousel {
+  margin-bottom: 0;
+}
+
+.hero-banner {
+  height: 80vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.hero-banner::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.hero-banner .container {
+  position: relative;
+  z-index: 1;
+  color: white;
+  text-align: center;
+}
+
+.hero-banner h1 {
+  font-size: 3.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.hero-banner p {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+/* Estadísticas */
+.stats-section {
+  background-color: #f8f9fa;
+  padding: 4rem 0;
+}
+
+.stat-item {
+  padding: 2rem;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.stat-item:hover {
+  transform: translateY(-10px);
+}
+
+.stat-item h2 {
+  font-size: 2.5rem;
+  color: #ffc107;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.stat-item p {
+  font-size: 1.2rem;
+  color: #6c757d;
+}
+
+/* Características */
+.features-list {
+  margin-top: 2rem;
+}
+
+.feature-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.feature-item i {
+  color: #ffc107;
+  font-size: 1.5rem;
+  margin-right: 1rem;
+}
+
+/* Video Container */
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* Instalaciones */
+.instalacion-card {
+  transition: transform 0.3s ease;
+  margin-bottom: 2rem;
+  border: none;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.instalacion-card:hover {
+  transform: translateY(-10px);
+}
+
+.instalacion-card .card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+/* Beneficios */
+.benefit-card {
+  text-align: center;
+  padding: 2rem;
+  border: none;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.benefit-card:hover {
+  transform: translateY(-10px);
+}
+
+.benefit-icon {
+  font-size: 3rem;
+  color: #ffc107;
+  margin-bottom: 1rem;
+}
+
+/* Testimonios */
+.testimonios-section {
+  background-color: #f8f9fa;
+}
+
+.testimonio-slide {
+  text-align: center;
+  padding: 3rem 1rem;
+}
+
+.testimonio-slide img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  margin-bottom: 1.5rem;
+  border: 4px solid #ffc107;
+}
+
+.testimonio-texto {
+  font-size: 1.2rem;
+  font-style: italic;
+  margin: 1rem 0;
+}
+
+.testimonio-resultado {
+  color: #ffc107;
+  font-weight: 600;
+}
+
+/* Promociones */
+.promotions-section {
+  background: linear-gradient(135deg, #343a40 0%, #212529 100%);
+  color: white;
+}
+
+.promo-features {
+  list-style: none;
+  padding: 0;
+  margin: 2rem 0;
+}
+
+.promo-features li {
+  margin-bottom: 1rem;
+  font-size: 1.1rem;
+}
+
+.promo-features i {
+  color: #ffc107;
+  margin-right: 0.5rem;
+}
+
+/* Modal */
+.membership-benefits {
+  list-style: none;
+  padding: 0;
+}
+
+.membership-benefits li {
+  margin-bottom: 1rem;
+  padding-left: 1.5rem;
+  position: relative;
+}
+
+.membership-benefits li::before {
+  content: '✓';
+  color: #ffc107;
+  position: absolute;
+  left: 0;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .hero-banner h1 {
+    font-size: 2.5rem;
+  }
+
+  .hero-banner p {
+    font-size: 1.2rem;
+  }
+
+  .stat-item {
+    margin-bottom: 2rem;
+  }
+
+  .video-container {
+    margin-top: 2rem;
+  }
+} 

@@ -1,0 +1,288 @@
+.horarios-header {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+              url('https://via.placeholder.com/1920x1080') center/cover;
+  color: white;
+  padding: 80px 0;
+  text-align: center;
+}
+
+.horarios-header h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.horarios-header p {
+  font-size: 1.2rem;
+  opacity: 0.9;
+}
+
+.horario-info {
+  margin-top: 1rem;
+}
+
+.horario-item {
+  margin-bottom: 1.5rem;
+}
+
+.horario-item h4 {
+  color: #343a40;
+  margin-bottom: 0.5rem;
+}
+
+.horario-item p {
+  font-size: 1.1rem;
+  color: #6c757d;
+  margin-bottom: 0;
+}
+
+.notas-lista {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.notas-lista li {
+  margin-bottom: 0.8rem;
+  padding-left: 1.5rem;
+  position: relative;
+}
+
+.notas-lista li:before {
+  content: "•";
+  color: #ffc107;
+  position: absolute;
+  left: 0;
+}
+
+.horario-clases {
+  background-color: #f8f9fa;
+}
+
+.table {
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.table th {
+  background-color: #343a40;
+  color: white;
+  text-align: center;
+}
+
+.table td {
+  text-align: center;
+  vertical-align: middle;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .horarios-header h1 {
+    font-size: 2rem;
+  }
+  
+  .table-responsive {
+    margin: 0 -15px;
+  }
+  
+  .table td, .table th {
+    padding: 0.5rem;
+    font-size: 0.9rem;
+  }
+}
+
+.horarios-page {
+  overflow-x: hidden;
+}
+
+/* Hero Section */
+.horarios-hero {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+              url('https://via.placeholder.com/1920x1080') center/cover;
+  color: white;
+  padding: 100px 0;
+  text-align: center;
+}
+
+.horarios-hero h1 {
+  font-size: 3.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.horarios-hero p {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+/* Selector de Días */
+.dias-selector {
+  background-color: #f8f9fa;
+  border-bottom: 1px solid #dee2e6;
+}
+
+.dias-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.dias-buttons .btn {
+  min-width: 120px;
+  font-weight: 500;
+}
+
+/* Tarjetas de Horario */
+.horario-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: none;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.horario-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.horario-card .card-title {
+  color: #212529;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.clase-info {
+  margin: 1rem 0;
+}
+
+.clase-info p {
+  margin-bottom: 0.5rem;
+  color: #6c757d;
+}
+
+.clase-info i {
+  color: #ffc107;
+  margin-right: 0.5rem;
+  width: 20px;
+}
+
+.horarios-disponibles {
+  margin: 1.5rem 0;
+}
+
+.horarios-disponibles .btn {
+  font-size: 0.9rem;
+  padding: 0.5rem 1rem;
+}
+
+.nivel-badge {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  font-size: 0.9rem;
+  padding: 0.5rem 1rem;
+}
+
+/* Modal de Reserva */
+.modal-content {
+  border: none;
+  border-radius: 15px;
+}
+
+.modal-header {
+  background-color: #f8f9fa;
+  border-bottom: 1px solid #dee2e6;
+  border-radius: 15px 15px 0 0;
+}
+
+.modal-title {
+  color: #212529;
+  font-weight: 600;
+}
+
+.clase-detalles {
+  padding: 1rem;
+}
+
+.clase-detalles h4 {
+  color: #212529;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.horario-seleccionado {
+  color: #ffc107;
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-bottom: 1.5rem;
+}
+
+.horario-seleccionado i {
+  margin-right: 0.5rem;
+}
+
+.info-detallada {
+  background-color: #f8f9fa;
+  padding: 1.5rem;
+  border-radius: 10px;
+  margin-bottom: 1.5rem;
+}
+
+.info-detallada p {
+  margin-bottom: 0.5rem;
+  color: #6c757d;
+}
+
+.info-detallada p:last-child {
+  margin-bottom: 0;
+}
+
+.info-detallada strong {
+  color: #212529;
+  margin-right: 0.5rem;
+}
+
+/* Formulario de Reserva */
+.form-label {
+  color: #212529;
+  font-weight: 500;
+}
+
+.form-control {
+  border: 1px solid #dee2e6;
+  border-radius: 8px;
+  padding: 0.75rem;
+}
+
+.form-control:focus {
+  border-color: #ffc107;
+  box-shadow: 0 0 0 0.2rem rgba(255, 193, 7, 0.25);
+}
+
+.form-check-label {
+  color: #6c757d;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .horarios-hero h1 {
+    font-size: 2.5rem;
+  }
+
+  .horarios-hero p {
+    font-size: 1.2rem;
+  }
+
+  .dias-buttons {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .dias-buttons .btn {
+    margin: 0.25rem 0;
+  }
+
+  .horario-card {
+    margin-bottom: 2rem;
+  }
+} 

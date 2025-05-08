@@ -1,0 +1,205 @@
+.clases-page {
+  overflow-x: hidden;
+}
+
+/* Hero Section */
+.clases-hero {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+              url('https://via.placeholder.com/1920x1080') center/cover;
+  color: white;
+  padding: 100px 0;
+  text-align: center;
+}
+
+.clases-hero h1 {
+  font-size: 3.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.clases-hero p {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+/* Categorías */
+.categorias-section {
+  background-color: #f8f9fa;
+  border-bottom: 1px solid #dee2e6;
+}
+
+.categorias-filtro {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+/* Tarjetas de Clase */
+.clase-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: none;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.clase-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.clase-imagen-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.clase-imagen-container img {
+  height: 200px;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.clase-card:hover .clase-imagen-container img {
+  transform: scale(1.1);
+}
+
+.nivel-badge {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 0.9rem;
+  padding: 0.5rem 1rem;
+}
+
+.clase-info {
+  margin: 1rem 0;
+}
+
+.clase-info p {
+  margin-bottom: 0.5rem;
+  color: #6c757d;
+}
+
+.clase-info i {
+  color: #ffc107;
+  margin-right: 0.5rem;
+  width: 20px;
+}
+
+.horarios-preview {
+  margin-top: 1rem;
+}
+
+.horarios-preview .badge {
+  font-size: 0.9rem;
+  padding: 0.5rem 0.75rem;
+  margin-bottom: 0.5rem;
+}
+
+/* Modal de Detalles */
+.modal-content {
+  border: none;
+  border-radius: 15px;
+}
+
+.modal-header {
+  background-color: #f8f9fa;
+  border-bottom: 1px solid #dee2e6;
+  border-radius: 15px 15px 0 0;
+}
+
+.modal-title {
+  color: #212529;
+  font-weight: 600;
+}
+
+.clase-detalles {
+  background-color: #f8f9fa;
+  padding: 1.5rem;
+  border-radius: 10px;
+  margin-top: 1rem;
+}
+
+.clase-detalles h5 {
+  color: #212529;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.clase-detalles ul li {
+  margin-bottom: 0.5rem;
+  color: #6c757d;
+}
+
+.horarios-completos {
+  background-color: #fff;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.horarios-completos h5 {
+  color: #212529;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.horarios-completos ul li {
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #dee2e6;
+}
+
+.horarios-completos ul li:last-child {
+  border-bottom: none;
+}
+
+.horarios-completos i {
+  color: #ffc107;
+}
+
+.requisitos, .beneficios {
+  background-color: #fff;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.requisitos h5, .beneficios h5 {
+  color: #212529;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.requisitos ul, .beneficios ul {
+  padding-left: 1.5rem;
+}
+
+.requisitos ul li, .beneficios ul li {
+  margin-bottom: 0.5rem;
+  color: #6c757d;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .clases-hero h1 {
+    font-size: 2.5rem;
+  }
+
+  .clases-hero p {
+    font-size: 1.2rem;
+  }
+
+  .categorias-filtro {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .categorias-filtro .btn {
+    margin: 0.25rem 0;
+  }
+
+  .clase-card {
+    margin-bottom: 2rem;
+  }
+} 

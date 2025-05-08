@@ -100,7 +100,7 @@ const Horarios = () => {
   return (
     <div className="horarios-page">
       {/* Hero Section */}
-      <div className="horarios-hero">
+      <div className="horarios-hero" style={{ backgroundImage: `url('https://www.ciudaris.com/blog/wp-content/uploads/como-aprovechar-maximo-gimnasio-departamento.jpg')` }}>
         <Container>
           <h1>Horarios de Clases</h1>
           <p>Planifica tu entrenamiento con nuestro horario semanal</p>

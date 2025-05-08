@@ -88,7 +88,7 @@ const Clases = () => {
   return (
     <div className="clases-page">
       {/* Hero Section */}
-      <div className="clases-hero">
+      <div className="clases-hero" style={{backgroundImage: "url('https://img.freepik.com/fotos-premium/filas-pesas-mancuernas-gimnasio_38535-556.jpg')"}}>
         <Container>
           <h1>Nuestras Clases</h1>
           <p>Descubre una variedad de clases diseñadas para todos los niveles</p>

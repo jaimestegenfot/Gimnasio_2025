@@ -58,7 +58,7 @@ const Inicio = () => {
       {/* Banner Principal con Carousel */}
       <Carousel className="hero-carousel">
         <Carousel.Item>
-          <div className="hero-banner" style={{backgroundImage: "url('https://via.placeholder.com/1920x1080')"}}>
+          <div className="hero-banner" style={{backgroundImage: "url('https://img.freepik.com/fotos-premium/filas-pesas-mancuernas-gimnasio_38535-556.jpg')"}}>
             <Container>
               <h1>¡Transforma tu vida con GymFit!</h1>
               <p>Tu camino hacia una vida más saludable comienza aquí</p>
@@ -69,7 +69,7 @@ const Inicio = () => {
           </div>
         </Carousel.Item>
         <Carousel.Item>
-          <div className="hero-banner" style={{backgroundImage: "url('https://via.placeholder.com/1920x1080')"}}>
+          <div className="hero-banner" style={{backgroundImage: "url('https://www.lavozdegalicia.es/default/2023/10/10/00121696953721821352478/Foto/SO11C2F3_18015.jpg')"}}>
             <Container>
               <h1>Clases Personalizadas</h1>
               <p>Entrenadores expertos para guiarte en tu camino</p>

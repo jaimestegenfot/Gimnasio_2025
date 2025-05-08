@@ -6,7 +6,7 @@ const Contacto = () => {
   return (
     <div className="contacto-page">
       {/* Header */}
-      <div className="contacto-header">
+      <div className="contacto-header" style={{ backgroundImage: "url('https://areagym.ro/wp-content/uploads/2022/06/areagym-07-1024x683.jpeg')" }}>
         <Container>
           <h1>Contacto</h1>
           <p>Estamos aquí para ayudarte</p>

@@ -132,7 +132,7 @@ const Entrenadores = () => {
   return (
     <div className="entrenadores-page">
       {/* Hero Section */}
-      <div className="entrenadores-hero">
+      <div className="entrenadores-hero" style={{backgroundImage: "url('https://paraleloestudio.com/wp-content/uploads/JPS-Architecten-Ivo-Jelinek-GYM-TrainMore-Utrecht-13.jpg')"}}>
         <Container>
           <h1>Nuestros Entrenadores</h1>
           <p>Profesionales certificados listos para guiarte en tu camino al éxito</p>

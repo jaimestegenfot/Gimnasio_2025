@@ -9,8 +9,8 @@ export default function Navigation() {
 
   const handleNavLinkClick = () => {
     setExpanded(false);
+    
   };
-
   return (
     <Navbar
       fixed="top"

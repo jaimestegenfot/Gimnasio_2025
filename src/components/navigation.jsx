@@ -23,7 +23,7 @@ export default function Navigation() {
     >
       <Container className="container-fluid">
         <Navbar.Brand as={Link} to="/" onClick={() => setExpanded(false)}>
-          GymFit
+          TORETO GYM
         </Navbar.Brand>
         <Navbar.Toggle
           aria-controls="basic-navbar-nav"

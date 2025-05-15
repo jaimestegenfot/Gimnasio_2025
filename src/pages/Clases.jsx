@@ -4,7 +4,7 @@ import './Clases.css';
 import cardio from '../img/salas/cardio.jpg';
 import yoga from '../img/salas/yoga.jpg';
 import crossfit from '../img/salas/CrossFit.jpg';
-import kickboxing from '../img/salas/kickboxing.jpg';
+import kickboxing from '../img/salas/box.jpg';
 const Clases = () => {
   const [showModal, setShowModal] = useState(false);
   const [selectedClass, setSelectedClass] = useState(null);
